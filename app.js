@@ -10,7 +10,7 @@ var budgetCalculator = (function(){
         this.percentage = percentage;
     };
     //Income Object Constructor
-    var Income = function(ID,description,value){
+    var Income = function(ID,description,value){ 
         this.ID = ID;
         this.description = description;
         this.value = parseFloat(value);
